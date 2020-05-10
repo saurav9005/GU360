@@ -1,0 +1,826 @@
+{
+   "nav_icon": "gannon_icon.png",
+   "firstPhotoId":"11211",
+   "secondPhotoID":"11111",
+   "firstPhotoRotation":150,
+   "soundEffects": {
+      "navButton": {
+         "onEnter": {
+            "uri": "switch-flip.wav",
+            "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+         },
+         "onClick": {
+            "uri": "menu-click.wav",
+            "attributionUri": "https://www.freesound.org/people/fins/sounds/146721/"
+         }
+      },
+      "infoButton": {
+         "onEnter": {
+            "uri": "switch-flip.wav",
+            "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+         }
+      },
+      "ambient": {
+         "uri": "Nash_Library_Audio.mp3",
+         "url": "Zurn_Science_Center.mp3",
+         "attributionUri": "Nash_Library_Audio.mp3",
+         "loop": true,
+         "volume": 0.20
+      }
+
+   },
+ 
+   "photos":{
+      "main":{
+         "rotationOffset": 200,
+         "uri":"NashLibrary-firstfloor-middle.jpg",
+         "tooltips": 
+            {
+               "type": "main",
+               "text":"Middle View",
+               "rotationY": 1.929,
+               "linkedPhotoId":"11111"
+            }
+      
+      },
+      "11111":{
+         "rotationOffset": 200,
+         "uri":"NashLibrary-firstfloor1.jpg",
+         "tooltips":[
+            {
+               "text":"Middle View",
+               "rotationY": 1.929,
+               "linkedPhotoId":"111121"
+            },
+            {
+               "text":"Second Floor",
+               "rotationY": -145.929,
+               "linkedPhotoId":"11121"
+            },
+            {
+               "text":"Ground Floor",
+               "rotationY": -125.929,
+               "linkedPhotoId":"11101"
+            },
+            {
+               "type": "panelimage",
+               "rotationY": 35,
+               "width": 400,
+               "height": 400,
+               "source": "receptionDesk.jpg",
+               "text": "Service Desk",
+               "attribution": "The library support desk focus to help students with tools and information's. Students can borrow books and movies from support desk. Tools are also available for loans."
+               
+            },
+            {
+               "type": "textblock",
+               "title": "Study Area",              
+               "rotationY": -30
+            },
+            {
+               "type": "textblock",
+               "title": "Sitting Area",              
+               "rotationY": 83
+            }
+                       
+            
+         ]
+
+      },
+      "111121":{
+         "rotationOffset": 180,
+         "uri":"NashLibrary-firstfloor-middle.jpg",
+         "tooltips":[
+            {
+               "text":"Second View",
+               "rotationY": 5.929,
+               "linkedPhotoId":"11112"
+            },
+            {
+               "text":"First View",
+               "rotationY": -170.929,
+               "linkedPhotoId":"11111"
+            },
+            {
+               "type": "panelimage",
+               "rotationY": 68,
+               "width": 256,
+               "height": 256,
+               "source": "itsupportcenter.jpg",
+               "text": "It Support",
+               "attribution": " Visit the technology Support desk to receive help configuring and troubleshooting your IT devices and software. "
+               
+            },
+            {
+               "type": "panelimage",
+               "rotationY": -45,
+               "width": 256,
+               "height": 256,
+               "source": "urban-brew.jpg",
+               "text": "Urban Cafe",
+               "attribution": "Studying Early or working till night feel free to grab a café style barrage and healthy snack with Gannon favorite Out of Grey Coffee."
+               
+            }      
+         ]
+      },
+      "11112":{
+         "rotationOffset": 20,
+         "uri":"NashLibrary-firstfloor2.jpg",
+         "tooltips": [
+            {
+               "text":"Middle View",
+               "rotationY": -9.929,
+               "linkedPhotoId":"111121"
+            },
+            {
+               "text":"Second Floor",
+               "rotationY": -115.929,
+               "linkedPhotoId":"11122"
+            },
+            {
+               "text":"Ground Floor",
+               "rotationY": -135.929,
+               "linkedPhotoId":"11102"
+            },
+            {
+               "type": "panelimage",
+               "rotationY": 150,
+               "width": 256,
+               "height": 256,
+               "source": "receptionDesk.jpg",
+               "text": "Service Desk",
+               "attribution": "The library support desk focus to help students with tools and information's. Students can borrow books and movies from support desk. Tools are also available for loans. "
+               
+            },
+            {
+               "type": "textblock",
+               "title": "Study & Sitting Area",              
+               "rotationY": 80
+            } 
+
+            
+         ]
+
+      },
+      "11101":{
+         "rotationOffset": 180,
+         "uri":"NashLibrary-GroundFloor-FirstView.jpg",
+         "tooltips": [
+            {
+               "text":"Second View",
+               "rotationY": -2,
+               "linkedPhotoId":"11102"
+            },
+            {
+               "text":"Writing Center",
+               "rotationY": -15.929,
+               "linkedPhotoId":"111012"
+            },
+            {
+               "text":"Steam Center",
+               "rotationY": 13,
+               "linkedPhotoId":"111011"
+            },
+            {
+               "text":"First Floor",
+               "rotationY": -120.929,
+               "linkedPhotoId":"11111"
+            },
+            {
+               "type": "panelimage",
+               "rotationY": 60,
+               "width": 256,
+               "height": 256,
+               "source": "computerlab.jpg",
+               "text": "Computer Lab",
+               "attribution": "Computer lab is located in Ground Floor"
+            },
+            {
+               "type": "textblock",
+               "title": "Study & Sitting Area",              
+               "rotationY": 160
+            }  
+         ]
+
+      },
+      "111011":{
+         "rotationOffset": 180,
+         "uri":"Nash_Library_steam-center.jpg",
+         "tooltips": [
+            
+            {
+               "text":"Back",
+               "rotationY": 0,
+               "linkedPhotoId":"11101"
+            },
+            {
+               "type": "textinfo",
+               "title": "STEM Center helps with",
+               "text": "Assignment, studying for exams, Recapping Lectures, Practice Problems, Preparing for Course",
+               "rotationY": 50,
+               "width": 200,
+               "height": 200
+            }  
+         ]
+
+      },
+      "111012":{
+         "rotationOffset": 180,
+         "uri":"NashLibrary_writing-center.jpg",
+         "tooltips": [
+            
+            {
+               "text":"Back",
+               "rotationY": -100,
+               "linkedPhotoId":"11101"
+            },
+            {
+               "type": "textinfo",
+               "title": "What Do We Offer?",
+               "text": "One-on-One consultations with a trained writing consultant, Real-time, synchronous virtual tutoring",
+               "rotationY": 0,
+               "width": 200,
+               "height": 200
+            }  
+         ]
+
+      },
+      "11102":{
+         "rotationOffset": 120,
+         "uri":"NashLibrary-GroundFloor-SecondView.jpg",
+         "tooltips": [
+            {
+               "text":"First View",
+               "rotationY": 50,
+               "linkedPhotoId":"11101"
+            },
+            {
+               "text":"First Floor",
+               "rotationY": -15.929,
+               "linkedPhotoId":"11112"
+            }
+            
+         ]
+      },
+      "11121":{
+         "rotationOffset": 180,
+         "uri":"NashLibrary-SecondFloor-FirstView.jpg",
+         "tooltips": [
+            {
+               "text":"Second View",
+               "rotationY": -9.929,
+               "linkedPhotoId":"11122"
+            },
+            {
+               "text":"Third Floor",
+               "rotationY": -70.929,
+               "linkedPhotoId":"11131"
+            },
+            {
+               "text":"First Floor",
+               "rotationY": -88.929,
+               "linkedPhotoId":"11111"
+            },
+            {
+               "type": "textblock",
+               "title": "Books",              
+               "rotationY": 50
+            },
+            {
+               "type": "textblock",
+               "title": "Study Area",              
+               "rotationY": 100
+            } 
+            
+         ]
+      },
+      "11122":{
+         "rotationOffset": 0,
+         "uri":"NashLibrary-SecondFloor-SecondView.jpg",
+         "tooltips": [
+            {
+               "text":"First View",
+               "rotationY": -180.929,
+               "linkedPhotoId":"11121"
+            },
+            {
+               "text":"Third Floor",
+               "rotationY": -90.929,
+               "linkedPhotoId":"11131"
+            },
+            {
+               "text":"First Floor",
+               "rotationY": 90.929,
+               "linkedPhotoId":"11112"
+            },
+            {
+               "type": "textblock",
+               "title": "Books",              
+               "rotationY": 160
+            },
+            {
+               "type": "textblock",
+               "title": "Study Area",              
+               "rotationY": 10
+            }  
+            
+         ]
+      },
+      "11131":{
+         "rotationOffset": 0,
+         "uri":"NashLibrary-ThirdFloor-View.jpg",
+         "tooltips": [
+            {
+               "text":"second Floor",
+               "rotationY": 90.929,
+               "linkedPhotoId":"11121"
+            },
+            {
+               "text":"First Floor",
+               "rotationY": -12.929,
+               "linkedPhotoId":"11111"
+            }
+            
+         ]
+      },
+      "11211":{
+         "rotationOffset": 190,
+         "uri":"Zurn_FirstFloor_FrontView.jpg",
+         "tooltips": [
+            {
+               "text":"Right View",
+               "rotationY": -90,
+               "linkedPhotoId":"11212"
+            },
+            {
+               "text":"Left View",
+               "rotationY": 90,
+               "linkedPhotoId":"112111"
+            },
+            {
+               "text":"Second Floor",
+               "rotationY": 60,
+               "linkedPhotoId":"11221"
+            },
+            {
+               "type": "panelimage",
+               "rotationY": -40,
+               "width": 256,
+               "height": 256,
+               "source": "zurn-science-center.jpg",
+               "text": "Zurn Science Center",
+               "attribution": "is the sciences academic building on the Gannon Campus. The building houses two lecture auditoriums along with several labs and numerous classrooms and departmental offices. Located in Zurn are Science and Engineering programs and Information Technology Services."
+            }
+            
+         ]
+      },
+      "112111":{
+         "rotationOffset": 190,
+         "uri":"Zurn-first-floor-leftside.jpg",
+         "tooltips": [
+            {
+               "text":"Front View",
+               "rotationY": 90,
+               "linkedPhotoId":"11211"
+            },
+            {
+               "text":"Second Floor",
+               "rotationY": -90,
+               "linkedPhotoId":"11221"
+            },
+            {
+               "type": "textblock",
+               "title": "Study & Sitting Area",              
+               "rotationY": 160
+            },
+            {
+               "type": "textblock",
+               "title": "Study & Sitting Area",              
+               "rotationY": -30
+            }  
+            
+         ]
+      },
+      "11212":{
+         "rotationOffset": 0,
+         "uri":"Zurn_FirstFloor-MiddleView.jpg",
+         "tooltips": [
+            {
+               "text":"Front View",
+               "rotationY": 90.929,
+               "linkedPhotoId":"11211"
+            },
+            {
+               "text":"Back View",
+               "rotationY": 360,
+               "linkedPhotoId":"11213"
+            },
+            {
+               "type": "textblock",
+               "title": "Study & Sitting Area",              
+               "rotationY": 60
+            },
+            {
+               "type": "textblock",
+               "title": "Printer for students",              
+               "rotationY": 190
+            }
+            
+         ]
+      },
+      "11213":{
+         "rotationOffset": 0,
+         "uri":"Zurn_FirstFloor-BackView.jpg",
+         "tooltips": [
+            {
+               "text":"Front View",
+               "rotationY": 0,
+               "linkedPhotoId":"11211"
+            },
+            {
+               "text":"Second Floor",
+               "rotationY": 270.929,
+               "linkedPhotoId":"11221"
+            }
+            
+            
+         ]
+      },
+      "11221":{
+         "rotationOffset": -90,
+         "uri":"Zurn_SecondFloor_FrontView.jpg",
+         "tooltips": [
+            {
+               "text":"Middle View",
+               "rotationY": 0,
+               "linkedPhotoId":"11222"
+            },
+            {
+               "text":"Third Floor",
+               "rotationY": 155.929,
+               "linkedPhotoId":"11231"
+            },
+            {
+               "text":"First Floor",
+               "rotationY": 165.929,
+               "linkedPhotoId":"11211"
+            },
+            {
+               "text":"Left View",
+               "rotationY": 180,
+               "linkedPhotoId":"112211"
+            },
+            {
+               "type": "panelimage",
+               "rotationY": 90,
+               "width": 256,
+               "height": 256,
+               "source": "biology-department.jpg",
+               "text": "Biology Department",
+               "attribution": "We provide students with a diverse curriculum to explore and study life in the classroom, laboratory and field. We offer students a wide range of possibilities to acquire the knowledge and skills necessary to become competitive and excel in their chosen fields."
+            },
+            {
+               "type": "textblock",
+               "title": "Printer for students",              
+               "rotationY": -40
+            }
+            
+         ]
+      },
+      "112211":{
+         "rotationOffset": 0,
+         "uri":"Zurn-secondfloor-office-way.jpg",
+         "tooltips": [
+            {
+               "text":"Front View",
+               "rotationY": 5,
+               "linkedPhotoId":"11221"
+            },
+            {
+               "text":"Third Floor",
+               "rotationY": 185.929,
+               "linkedPhotoId":"11231"
+            },
+            {
+               "text":"First Floor",
+               "rotationY": 175.929,
+               "linkedPhotoId":"11211"
+            },
+            {
+               "type": "textinfo",
+               "title": "Biology Faculty Members Office",
+               "text": "201 - Kelly Muroff \n 202 - Elisa M. Konieczko \n 203 - \n 204 - Renee Fordon \n 205- Chris Dempsey \n 206 - Michelle Kuns \n 207 - Mathew Gacura \n 208 - Gary Vanderlaan \n 209 - Mary Vagula \n 210 - Michael Ganger \n 211 - Russ Minton \n 212 - Quyen Aou \n 213 - Faculty Lounge \n 214 - Biology Conference Room",
+               "rotationY": 195,
+               "width": 300,
+               "height": 350
+            }  
+            
+         ]
+      },
+      "11222":{
+         "rotationOffset": 0,
+         "uri":"Zurn_SecondFloor_MiddleView.jpg",
+         "tooltips": [
+            {
+               "text":"Front View",
+               "rotationY": -5,
+               "linkedPhotoId":"11221"
+            },
+            {
+               "text":"Back View",
+               "rotationY": -115.929,
+               "linkedPhotoId":"11223"
+            },
+            {
+               "text":"Right View",
+               "rotationY": -310.929,
+               "linkedPhotoId":"112221"
+            }
+            
+            
+         ]
+      },
+      "112221":{
+         "rotationOffset": 0,
+         "uri":"zurn-second-floor-rightside.jpg",
+         "tooltips": [
+            {
+               "text":"First Floor",
+               "rotationY": -5,
+               "linkedPhotoId":"11211"
+            },
+            {
+               "text":"Third Floor",
+               "rotationY": -11,
+               "linkedPhotoId":"11231"
+            },
+            {
+               "text":"Middle View",
+               "rotationY": -95.929,
+               "linkedPhotoId":"11222"
+            }
+            
+            
+         ]
+      },
+      "11223":{
+         "rotationOffset": 0,
+         "uri":"Zurn_SecondFloore_BackView.jpg",
+         "tooltips": [
+            {
+               "text":"Middle View",
+               "rotationY": 268,
+               "linkedPhotoId":"11222"
+            },            
+            {
+               "text":"Third Floor",
+               "rotationY": 170,
+               "linkedPhotoId":"11231"
+            },
+            {
+               "text":"First Floor",
+               "rotationY": 180,
+               "linkedPhotoId":"11211"
+            },
+            {
+               "type": "textblock",
+               "title": "Printer for students",              
+               "rotationY": 160
+            }
+            
+         ]
+      },
+      "11231":{
+         "rotationOffset": -90,
+         "uri":"Zurn_ThirdFloor_FrontView.jpg",
+         "tooltips": [
+            {
+               "text":"Middle View",
+               "rotationY": 85.929,
+               "linkedPhotoId":"11232"
+            },
+            {
+               "text":"left View",
+               "rotationY": -90,
+               "linkedPhotoId":"112312"
+            },            
+            {
+               "text":"Second Floor",
+               "rotationY": -108.929,
+               "linkedPhotoId":"11221"
+            },
+            {
+               "type": "panelimage",
+               "rotationY": 180,
+               "width": 300,
+               "height": 250,
+               "source": "computer-department.jpg",
+               "text": "CIS Department",
+               "attribution": "Computer and Information Science program offers options for students to select studies in analytical, technology or an applied focus for the application of computing technologies while gaining hands-on learning in small classroom and integrated laboratory settings."
+            },
+            {
+               "type": "textblock",
+               "title": "Printer for students",              
+               "rotationY": 125
+            }
+            
+         ]
+      },
+      "112312":{
+         "rotationOffset": 180,
+         "uri":"Zurn-third-floor-right-view.jpg",
+         "tooltips": [
+            {
+               "text":"Front View",
+               "rotationY": 175,
+               "linkedPhotoId":"11231"
+            },            
+            {
+               "text":"Second Floor",
+               "rotationY": -10,
+               "linkedPhotoId":"11221"
+            },
+            {
+               "type": "textinfo",
+               "title": "CIS Faculty Members Office",
+               "text": "301 - Fong k Mak \n 302 - Wookwon Lee \n 303 - Lin Zhao \n 304 - Dan Moser \n 305 - Ramakrishnan Sundaram \n 306 - Ahmed Abuhussein \n 307 - Donald Mackellar \n 308 - Yong-kyu Jung \n 309 - Joshua Nwokeji \n 310 - Richard Lamh \n 311 - Sreela Sasi \n 312 - Bharat Rawalkshatriya \n 313 - Mei-Huei Tang \n 214 - Deacon Steve Freeza",
+               "rotationY": 10,
+               "width": 300,
+               "height": 350
+            }
+            
+         ]
+      },
+      "112311":{
+         "rotationOffset": -90,
+         "uri":"Zurn_ThirdFloor_FrontView.jpg",
+         "tooltips": [
+            {
+               "text":"Middle View",
+               "rotationY": 85.929,
+               "linkedPhotoId":"11232"
+            },            
+            {
+               "text":"Second Floor",
+               "rotationY": -108.929,
+               "linkedPhotoId":"11221"
+            }
+            
+         ]
+      },
+      "11232":{
+         "rotationOffset": 90,
+         "uri":"Zurn_ThirdFloor_MiddleView.jpg",
+         "tooltips": [
+            {
+               "text":"Front View",
+               "rotationY": -5,
+               "linkedPhotoId":"11231"
+            },            
+            {
+               "text":"Back View",
+               "rotationY": -90.929,
+               "linkedPhotoId":"11234"
+            },
+            {
+               "text":"Bio Informatics lab",
+               "rotationY": -30,
+               "linkedPhotoId":"11233"
+            },
+            {
+               "text":"Multimedia Lab",
+               "rotationY": -162,
+               "linkedPhotoId":"112331"
+            },
+            {
+               "text":"CIS Project Lab",
+               "rotationY": -110,
+               "linkedPhotoId":"112332"
+            },
+            {
+               "text":"Right View",
+               "rotationY": 65,
+               "linkedPhotoId":"112321"
+            }
+            
+         ]
+      },
+      "112321":{
+         "rotationOffset": 180,
+         "uri":"Zurn-rightside-Exit.jpg",
+         "tooltips": [
+            {
+               "text":"Second Floor",
+               "rotationY": -5,
+               "linkedPhotoId":"11221"
+            },            
+            {
+               "text":"Middle View",
+               "rotationY": 0,
+               "linkedPhotoId":"11232"
+            }
+            
+         ]
+      },
+      "11233":{
+         "rotationOffset": -90,
+         "uri":"Zurn_ThirdFloor_Bio-informatics-lab.jpg",
+         "tooltips": [
+            {
+               "text":"Exit",
+               "rotationY": 85.929,
+               "linkedPhotoId":"11232"
+            },
+            {
+               "text":"Exit",
+               "rotationY": -85.929,
+               "linkedPhotoId":"11232"
+            }
+            
+         ]
+      },
+      "112331":{
+         "rotationOffset": -90,
+         "uri":"Zurn-Multimedia-lab.jpg",
+         "tooltips": [
+            {
+               "text":"Exit",
+               "rotationY": 85.929,
+               "linkedPhotoId":"11232"
+            }
+            
+         ]
+      },
+      "112332":{
+         "rotationOffset": -90,
+         "uri":"Zurn_CIS-projects-lab-front-view.jpg",
+         "tooltips": [
+            {
+               "text":"Exit",
+               "rotationY": 85.929,
+               "linkedPhotoId":"11232"
+            }
+         ]
+      },
+      "11234":{
+         "rotationOffset": -90,
+         "uri":"Zurn_ThirdFloor_LastView.jpg",
+         "tooltips": [
+            {
+               "text":"Middle View",
+               "rotationY": 95,
+               "linkedPhotoId":"11232"
+            },
+            {
+               "text":"Second Floor",
+               "rotationY": 0,
+               "linkedPhotoId":"11221"
+            },
+            {
+               "text":"Office Rooms",
+               "rotationY": 180,
+               "linkedPhotoId":"112341"
+            }
+            
+         ]
+      },
+      "112341":{
+         "rotationOffset": -90,
+         "uri":"Zurn-third-floor-back-office.jpg",
+         "tooltips": [
+            {
+               "text":"Back",
+               "rotationY": 0,
+               "linkedPhotoId":"112341"
+            },
+            {
+               "text":"CIS Research Lab",
+               "rotationY": 180,
+               "linkedPhotoId":"1123412"
+            },
+            {
+               "type": "textinfo",
+               "title": "CIS Faculty Members Office",
+               "text": "349 - Barry Brinkman \n 350 - Mark Blair \n 351 - Jeremy Cannell \n 352 - Yunkai Liu \n 353 - John Coffman",
+               "rotationY": 195,
+               "width": 300,
+               "height": 350
+            }
+            
+         ]
+      },
+      "1123412":{
+         "rotationOffset": -90,
+         "uri":"zurn-CIS-Research-Lab.jpg",
+         "tooltips": [
+            {
+               "text":"Back",
+               "rotationY": -90,
+               "linkedPhotoId":"11234"
+            }
+            
+         ]
+      }
+      
+   }
+}
