@@ -2,10 +2,7 @@
 // If you want to modify your application's content, start in "index.js"
 
 import {ReactInstance, Surface} from 'react-360-web';
-import RCTWorkInProgressSurface from './RCTWorkInProgressSurface';
-import SimpleRaycaster from 'simple-raycaster';
-import WebVRPolyfill from 'webvr-polyfill';
-const polyfill = new WebVRPolyfill();
+import RCTWorkInProgressSurface from './RCTWorkInProgressSurface'
 
 function init(bundle, parent, options = {}) {
 
@@ -39,7 +36,6 @@ function init(bundle, parent, options = {}) {
   const r360 = new ReactInstance(bundle, parent, {
     // Add custom options here
     fullScreen: true,
-     
     customViews: [
       {
         // Add custom native view "RCTSurface" to support surface control
@@ -52,14 +48,9 @@ function init(bundle, parent, options = {}) {
 
   RCTWorkInProgressSurface.__reactInstance = r360;
 
-
   // Render your app content to the default cylinder surface
   r360.renderToSurface(
-    r360.createRoot('Gannon360', { /* initial props */ }),
-    r360.getDefaultSurface()
-  );
-  r360.renderToSurface(
-    r360.createRoot('Gannon360', { 
+    r360.createRoot('TourAppTemplate', { 
       /* initial props */
       useDynamicSurface: useDynamicSurface,
       mainSurfaceWidth: mainSurfaceWidth,
@@ -67,10 +58,6 @@ function init(bundle, parent, options = {}) {
     }),
     mainSurface, //r360.getDefaultSurface()
   );
-  
-  //r360.controls.clearRaycasters();
-  //r360.controls.addRaycasters(SimpleRaycaster);
-   r360.compositor.setBackground(r360.getAssetURL('gannonuniversity.jpg'));
 }
 
 window.React360 = {init};
