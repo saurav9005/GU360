@@ -2,7 +2,13 @@
 // If you want to modify your application's content, start in "index.js"
 
 import {ReactInstance, Surface} from 'react-360-web';
-import RCTWorkInProgressSurface from './RCTWorkInProgressSurface'
+import RCTWorkInProgressSurface from './RCTWorkInProgressSurface';
+//Vr Cursor enable
+//import SimpleRaycaster from 'simple-raycaster';
+
+// VR mode enable 
+// import WebVRPolyfill from 'webvr-polyfill';
+// const polyfill = new WebVRPolyfill();
 
 function init(bundle, parent, options = {}) {
 
@@ -15,6 +21,25 @@ function init(bundle, parent, options = {}) {
     });
   }
 
+  //VR Cursor
+
+//    const SimpleRaycaster = {
+//   drawsCursor: () => true,
+//   fillDirection: direction => {
+//     direction[0] = 0;
+//     direction[1] = 0;
+//     direction[2] = -1;
+//     return true;
+//   },
+// const vr = new ReactInstance(bundle, "Gannon360", parent, {
+//     raycasters: [
+//        SimpleRaycaster // Add SimpleRaycaster to the options
+//     ],
+//     cursorVisibility: "auto", // Add cursorVisibility
+//     ...options
+//   });
+//   vr.start();
+//   return vr;
   const useDynamicSurface = options.useDynamicSurface;
   let mainSurfaceWidth;
   let mainSurfaceHeight;
@@ -36,6 +61,7 @@ function init(bundle, parent, options = {}) {
   const r360 = new ReactInstance(bundle, parent, {
     // Add custom options here
     fullScreen: true,
+     
     customViews: [
       {
         // Add custom native view "RCTSurface" to support surface control
@@ -48,9 +74,10 @@ function init(bundle, parent, options = {}) {
 
   RCTWorkInProgressSurface.__reactInstance = r360;
 
-  // Render your app content to the default cylinder surface
+
+  
   r360.renderToSurface(
-    r360.createRoot('TourAppTemplate', { 
+    r360.createRoot('Gannon360', { 
       /* initial props */
       useDynamicSurface: useDynamicSurface,
       mainSurfaceWidth: mainSurfaceWidth,
@@ -58,6 +85,10 @@ function init(bundle, parent, options = {}) {
     }),
     mainSurface, //r360.getDefaultSurface()
   );
+  
+  //r360.controls.clearRaycasters();
+  //r360.controls.addRaycasters(SimpleRaycaster);
+   r360.compositor.setBackground(r360.getAssetURL('gannonuniversity.jpg'));
 }
 
 window.React360 = {init};
