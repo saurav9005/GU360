@@ -70,9 +70,7 @@ class Gannon360 extends React.Component {
         (tourConfig.photos[tourConfig.firstPhotoId].rotationOffset || 0),
     });
   }
-   _click = () => {
-    
-  };
+  
 
   render() {
     if (!this.state.data) {

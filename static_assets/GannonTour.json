@@ -31,18 +31,6 @@
    },
  
    "photos":{
-      "main":{
-         "rotationOffset": 200,
-         "uri":"NashLibrary-firstfloor-middle.jpg",
-         "tooltips": 
-            {
-               "type": "main",
-               "text":"Middle View",
-               "rotationY": 1.929,
-               "linkedPhotoId":"11111"
-            }
-      
-      },
       "11111":{
          "rotationOffset": 200,
          "uri":"NashLibrary-firstfloor1.jpg",
@@ -59,6 +47,7 @@
             },
             {
                "text":"Ground Floor",
+
                "rotationY": -125.929,
                "linkedPhotoId":"11101"
             },
@@ -245,6 +234,7 @@
          ]
 
       },
+
       "11102":{
          "rotationOffset": 120,
          "uri":"NashLibrary-GroundFloor-SecondView.jpg",
@@ -610,6 +600,11 @@
                "linkedPhotoId":"11221"
             },
             {
+               "text":"Forth Floor",
+               "rotationY": -120.929,
+               "linkedPhotoId":"11241"
+            },
+            {
                "type": "panelimage",
                "rotationY": 180,
                "width": 300,
@@ -641,29 +636,17 @@
                "linkedPhotoId":"11221"
             },
             {
+               "text":"Forth Floor",
+               "rotationY": -20,
+               "linkedPhotoId":"11241"
+            },
+            {
                "type": "textinfo",
                "title": "CIS Faculty Members Office",
-               "text": "301 - Fong k Mak \n 302 - Wookwon Lee \n 303 - Lin Zhao \n 304 - Dan Moser \n 305 - Ramakrishnan Sundaram \n 306 - Ahmed Abuhussein \n 307 - Donald Mackellar \n 308 - Yong-kyu Jung \n 309 - Joshua Nwokeji \n 310 - Richard Lamh \n 311 - Sreela Sasi \n 312 - Bharat Rawalkshatriya \n 313 - Mei-Huei Tang \n 214 - Deacon Steve Freeza",
+               "text": "301 - Fong k Mak \n 302 - Wookwon Lee \n 303 - Lin Zhao \n 304 - Dan Moser \n 305 - Ramakrishnan Sundaram \n 306 - Ahmed Abuhussein \n 307 - Donald Mackellar \n 308 - Yong-kyu Jung \n 309 - Joshua Nwokeji \n 310 - Richard Lamh \n 311 - Sreela Sasi \n 312 - Bharat Rawalkshatriya \n 313 - Mei-Huei Tang \n 314 - Deacon Steve Freeza",
                "rotationY": 10,
                "width": 300,
                "height": 350
-            }
-            
-         ]
-      },
-      "112311":{
-         "rotationOffset": -90,
-         "uri":"Zurn_ThirdFloor_FrontView.jpg",
-         "tooltips": [
-            {
-               "text":"Middle View",
-               "rotationY": 85.929,
-               "linkedPhotoId":"11232"
-            },            
-            {
-               "text":"Second Floor",
-               "rotationY": -108.929,
-               "linkedPhotoId":"11221"
             }
             
          ]
@@ -715,8 +698,13 @@
                "linkedPhotoId":"11221"
             },            
             {
-               "text":"Middle View",
+               "text":"Forth Floor",
                "rotationY": 0,
+               "linkedPhotoId":"11241"
+            },
+            {
+               "text":"Middle View",
+               "rotationY": -90,
                "linkedPhotoId":"11232"
             }
             
@@ -777,6 +765,11 @@
                "linkedPhotoId":"11221"
             },
             {
+               "text":"Forth Floor",
+               "rotationY": 10,
+               "linkedPhotoId":"11241"
+            },
+            {
                "text":"Office Rooms",
                "rotationY": 180,
                "linkedPhotoId":"112341"
@@ -817,6 +810,100 @@
                "text":"Back",
                "rotationY": -90,
                "linkedPhotoId":"11234"
+            }
+            
+         ]
+      },
+      "11241":{
+         "rotationOffset": 90,
+         "uri":"Zurn_ForthFloor_FrontView.jpg",
+         "tooltips": [
+            {
+               "text":"Middle View",
+               "rotationY": 180,
+               "linkedPhotoId":"11242"
+            },
+            {
+               "text":"Third Floor",
+               "rotationY": -16,
+               "linkedPhotoId":"11231"
+            },
+            {
+               "text":"Left View",
+               "rotationY": 0,
+               "linkedPhotoId":"11244"
+            },
+            {
+               "type": "textblock",
+               "title": "Printer for students",              
+               "rotationY": -60
+            },
+            {
+               "type": "panelimage",
+               "rotationY": -90,
+               "width": 300,
+               "height": 250,
+               "source": "math-department.jpg",
+               "text": "Math Department",
+               "attribution": "The mathematics major consists of a core mathematics curriculum covering many branches of mathematics but also has lots of space for electives or to add an actuarial science concentration or certification in secondary education."
+            }
+         ]
+      },
+      "11242":{
+         "rotationOffset": 90,
+         "uri":"Zurn_ForthFloor_MiddleView.jpg",
+         "tooltips": [
+            {
+               "text":"Front View",
+               "rotationY": 0,
+               "linkedPhotoId":"11241"
+            },
+            {
+               "text":"Back View",
+               "rotationY": -90,
+               "linkedPhotoId":"11243"
+            }
+            
+         ]
+      },
+      "11243":{
+         "rotationOffset": 90,
+         "uri":"Zurn_ForthFloor_BackView.jpg",
+         "tooltips": [
+            {
+               "text":"Middle View",
+               "rotationY": 0,
+               "linkedPhotoId":"11242"
+            },
+            {
+               "text":"Third Floor",
+               "rotationY": -110,
+               "linkedPhotoId":"11231"
+            }
+            
+         ]
+      },
+      "11244":{
+         "rotationOffset": 0,
+         "uri":"zurn-forth-floor-leftside.jpg",
+         "tooltips": [
+            {
+               "text":"Front View",
+               "rotationY": 0,
+               "linkedPhotoId":"11241"
+            },
+            {
+               "text":"Third Floor",
+               "rotationY": 180,
+               "linkedPhotoId":"11231"
+            },
+            {
+               "type": "textinfo",
+               "title": "Math Faculty Members Office",
+               "text": "401 - Patrick Headly \n 402 - Tutoring Lab \n 403 - Michael Caulfield \n 404 - David Horne \n 405 - Christine Cedzo \n 406 - David Prier \n 407 - Richard G. Ligo \n 408 - Groffery Dietz \n 409 - Keith M. Krise \n 410 - Robert W. Stallbaum \n 411 - Betty Jo. Chtester \n 412 - Lisa Nogaj \n 413 - Weslene Tallmadge \n 414 - Chemistry Conference Room",
+               "rotationY": 195,
+               "width": 300,
+               "height": 350
             }
             
          ]
